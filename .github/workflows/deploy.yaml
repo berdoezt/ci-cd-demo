@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     container: ghcr.io/railwayapp/cli:latest
     env:
-      SVC_ID: practical-magic
+      SVC_ID: 3bea84f3-1ed0-47ec-af31-229cf0bc8c7a
       RAILWAY_TOKEN: ${{ secrets.RAILWAY }}
     steps:
       - uses: actions/checkout@v3
